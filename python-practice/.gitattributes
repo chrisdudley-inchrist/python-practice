@@ -1,0 +1,8 @@
+# Treat all text files as text and auto-normalize line endings
+* text=auto
+
+# Force consistent line endings for common file types
+*.py text eol=lf
+*.md text eol=lf
+*.sh text eol=lf
+*.bat text eol=crlf
