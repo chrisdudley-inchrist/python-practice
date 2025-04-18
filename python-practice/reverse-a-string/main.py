@@ -2,6 +2,7 @@
 Problem: Reverse A String
 """
 from itertools import count
+from xml.etree.ElementTree import tostring
 
 
 def solve():
@@ -18,11 +19,10 @@ def reverse_string(inputText: str):
     for c in inputText:
         tempArray.append(c)
 
-    for i in range(len(tempArray),-1,-1,-1):
-        print(i)
-        resultArray.append(i)
-    pass
+    for i in range(len(tempArray) - 1, -1, -1):
+        resultArray.append(tempArray[i])
+    return ''.join(resultArray)
 
 
 if __name__ == "__main__":
-    reverse_string('this is backwards')
+    print(reverse_string('this is backwards'))
