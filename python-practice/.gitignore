@@ -1,0 +1,29 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environments
+.venv/
+venv/
+
+# IntelliJ IDEA project settings
+.idea/
+
+# VSCode settings (just in case)
+.vscode/
+
+# Mac OS / Windows system files
+.DS_Store
+Thumbs.db
+
+# Test result caches and logs
+*.log
+
+# Python distribution
+*.egg-info/
+dist/
+build/
+
+# Environment variables
+.env
